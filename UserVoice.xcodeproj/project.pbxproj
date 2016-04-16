@@ -230,8 +230,8 @@
 		D3683A831C7747710036064E /* YOAuthUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31252E109231D800000D5F /* YOAuthUtil.h */; };
 		D90A608A1857972A00D028DE /* UVTextWithFieldsView.h in Headers */ = {isa = PBXBuildFile; fileRef = D90A60881857972A00D028DE /* UVTextWithFieldsView.h */; };
 		D90A608B1857972A00D028DE /* UVTextWithFieldsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D90A60891857972A00D028DE /* UVTextWithFieldsView.m */; };
-		D90B211D1C90ABEE00B52A9E /* UVPaginationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D90B211B1C90ABEE00B52A9E /* UVPaginationInfo.h */; settings = {ASSET_TAGS = (); }; };
-		D90B211E1C90ABEE00B52A9E /* UVPaginationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B211C1C90ABEE00B52A9E /* UVPaginationInfo.m */; settings = {ASSET_TAGS = (); }; };
+		D90B211D1C90ABEE00B52A9E /* UVPaginationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D90B211B1C90ABEE00B52A9E /* UVPaginationInfo.h */; };
+		D90B211E1C90ABEE00B52A9E /* UVPaginationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B211C1C90ABEE00B52A9E /* UVPaginationInfo.m */; };
 		D92767FB15597F3800E17EF1 /* UVArticle.h in Headers */ = {isa = PBXBuildFile; fileRef = D92767F915597F3700E17EF1 /* UVArticle.h */; };
 		D92767FC15597F3800E17EF1 /* UVArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = D92767FA15597F3800E17EF1 /* UVArticle.m */; };
 		D927680C1559CB4000E17EF1 /* UVArticleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D927680A1559CB3F00E17EF1 /* UVArticleViewController.h */; };
@@ -279,6 +279,7 @@
 		D9E8B6A818105CC8003C7E07 /* UVInstantAnswerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8B6A618105CC8003C7E07 /* UVInstantAnswerManager.h */; };
 		D9E8B6A918105CC9003C7E07 /* UVInstantAnswerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E8B6A718105CC8003C7E07 /* UVInstantAnswerManager.m */; };
 		D9F2060414C08A8100F4441E /* UVDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F2060314C08A8100F4441E /* UVDelegate.h */; };
+		E157306B1CC2ABFA00FF981A /* UVPaginationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B211C1C90ABEE00B52A9E /* UVPaginationInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1167,6 +1168,7 @@
 				D3683A1F1C77471D0036064E /* UVTruncatingLabel.m in Sources */,
 				D3683A201C77471D0036064E /* UVCalculatingLabel.m in Sources */,
 				D3683A211C77471D0036064E /* UVTextWithFieldsView.m in Sources */,
+				E157306B1CC2ABFA00FF981A /* UVPaginationInfo.m in Sources */,
 				D3683A221C77471D0036064E /* UserVoice.m in Sources */,
 				D3683A231C77471D0036064E /* UVNavigationController.m in Sources */,
 				D3683A241C77471D0036064E /* UVConfig.m in Sources */,
