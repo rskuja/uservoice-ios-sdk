@@ -92,7 +92,6 @@
 		D2BEEBB91367436D00EBC307 /* UVTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BEEBB71367436D00EBC307 /* UVTicket.h */; };
 		D2BEEBBA1367436D00EBC307 /* UVTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BEEBB81367436D00EBC307 /* UVTicket.m */; };
 		D2C4B58F11C182CD00AD1C1A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C4B58E11C182CD00AD1C1A /* QuartzCore.framework */; };
-		D36839F71C77464C0036064E /* UserVoiceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D36839F61C77464C0036064E /* UserVoiceSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D36839FD1C77471D0036064E /* UVBabayaga.m in Sources */ = {isa = PBXBuildFile; fileRef = D96CF04B17CD02480055B619 /* UVBabayaga.m */; };
 		D36839FE1C77471D0036064E /* UVDeflection.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BC43D17EB751500AED65E /* UVDeflection.m */; };
 		D36839FF1C77471D0036064E /* UVArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D927680B1559CB4000E17EF1 /* UVArticleViewController.m */; };
@@ -374,7 +373,6 @@
 		D2BEEBB81367436D00EBC307 /* UVTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVTicket.m; sourceTree = "<group>"; };
 		D2C4B58E11C182CD00AD1C1A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D36839F41C77464C0036064E /* UserVoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D36839F61C77464C0036064E /* UserVoiceSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserVoiceSDK.h; sourceTree = "<group>"; };
 		D36839F81C77464C0036064E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D909DD4117CD3CAA00ECE395 /* UVDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVDefines.h; sourceTree = "<group>"; };
 		D90A60881857972A00D028DE /* UVTextWithFieldsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVTextWithFieldsView.h; sourceTree = "<group>"; };
@@ -751,7 +749,6 @@
 		D36839F51C77464C0036064E /* UserVoiceSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D36839F61C77464C0036064E /* UserVoiceSDK.h */,
 				D36839F81C77464C0036064E /* Info.plist */,
 			);
 			path = UserVoiceSDK;
@@ -892,7 +889,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36839F71C77464C0036064E /* UserVoiceSDK.h in Headers */,
 				D3683A3F1C77476D0036064E /* UserVoice.h in Headers */,
 				D3683A3E1C77476D0036064E /* UVConfig.h in Headers */,
 				D3683A411C77476D0036064E /* UVDelegate.h in Headers */,
